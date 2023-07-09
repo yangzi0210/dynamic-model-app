@@ -29,7 +29,7 @@ const Modal = ({
     <div>
       <AntdModal
         title={init?.data?.page?.title}
-        visible={modalVisible}
+        open={modalVisible}
         onCancel={hideModal}
         footer={ActionBuilder(init?.data?.layout?.actions[0]?.data)}
       >
