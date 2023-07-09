@@ -52,6 +52,12 @@ export default [
     component: './TableList',
   },
   {
+    name: 'basic-list',
+    icon: 'UnorderedListOutlined',
+    path: '/basic-list',
+    component: './BasicList',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
